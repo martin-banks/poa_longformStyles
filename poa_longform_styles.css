@@ -1,0 +1,702 @@
+/* 
+Prefix for longform only:
+div.longform-group-inner.story-content.standard
+*/
+
+
+div.longform-group-inner.story-content.standard {
+	padding-top: 0;
+}
+/* body text */
+div.longform-group-inner.story-content.standard p {
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+div.longform-group-inner.story-content.standard p.first {
+	margin-top: -24px;
+}
+
+/* full screen image promo caption container */
+div.asset-promo.promo-splash div.promo-text {
+	background-color: #fff;
+	color: #000;
+	padding: 8px 0 !important;
+}
+
+/*  full screen image promo caption text */
+div.asset-promo.promo-splash div.promo-text p {
+	padding: 0 16px;
+	margin: 0;
+	text-align: center;
+}
+
+/* body text */
+div.longform-group-inner.story-content.standard p {
+	padding: 0 16px;
+}
+
+/* div.longform-group-inner.story-content.standard a + div.longform-group-inner.story-content.standard p {
+	margin-top:  80px;
+} */
+
+
+
+/* unique_headline class used as spacer */
+p span.unique_headline {
+	display: block;
+	width: 100%;
+	border-bottom:  solid 1px #ddd;
+	font-size: 0;
+	color: #fff;
+	color: rgba(255, 255, 255, 0);
+	/* height: 0;
+	overflow: hidden; */
+	margin: 32px 0;
+	margin-bottom: -21px;
+	padding-bottom: 0px;
+}
+/* add flower image before each use of unique head: as a seperator between stories */
+p span.unique_headline:before {
+	content: '';
+	display: block;
+	background-image: url('http://media.news.com.au/nnd/T3Interactives/2016/network/PrideOfAustralia/flower.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: 120px;
+	padding-bottom: 64px;
+}
+
+
+
+
+
+/* Methode h2 tag */
+div.longform-group-inner.story-content.standard p span.h2 {
+	font-size: 20px;
+	line-height: 20px;
+	text-transform: uppercase;
+	padding: 0;
+	padding-top: 0;
+	/* color: #295b75; */
+	color: #666;
+	letter-spacing: 4px;
+	margin-bottom: 0px;
+	margin-top: 56px;
+}
+
+div.longform-group-inner.story-content.standard p.first span.h2 {
+	margin-top: 32px;
+}
+
+/* chapter header tags */
+/* figure.story-asset + a[data-chapter]{
+	
+} */
+
+/* Methode h3 tag */
+/* medalist/nominee */
+div.longform-group-inner.story-content.standard p span.h3 {
+	font-size: 16px;
+	line-height: 24px;
+	font-family: "Guardian Sans", "Open Sans Regular", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 0;
+	padding-bottom: 8px;
+	margin-bottom: -8px;
+	margin-top: -24px;
+	color: #777;
+}
+
+
+/* Methode h3 spans inside bold tag */
+/* what they did */
+div.longform-group-inner.story-content.standard p b span.h3 {
+	font-family: "Merriweather", Georgia, serif;
+	font-size: 32px;
+	line-height: 34px;
+	margin: -24px 0 32px 0;
+	padding-top: 8px;
+	letter-spacing: -0.5px;
+	color: #dab545;
+	font-weight: 300;
+	/* border-bottom: solid 1px #ccc; */
+	/* padding-bottom: 100px; */
+	width: auto;
+	letter-spacing: -0.5px;
+	text-rendering: geometricprecision;
+	text-transform: none;
+}
+
+/* 
+figure.story-asset + a + p + p + p b span.h3{
+	background-image: url('http://media.news.com.au/nnd/T3Interactives/2016/network/PrideOfAustralia/flower.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+} */
+
+
+
+/* '+' describes a sequence of DOM elements  */
+/* drop caps for first par of each entry */
+a#chapter1 + p + p + p + p:first-letter,
+figure.story-asset + a + p + p + p + p:first-letter,
+p.first + p + p + p:first-letter {
+	float: left;
+	/* color: #b3bec6; */
+	color: #000;
+	font-size: 48px;
+	line-height: 44px;
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-left: 0px;
+	font-family: "Merriweather", Georgia, serif;
+}
+
+
+
+
+
+/* inline image caption */
+div.longform-group-inner.story-content.standard figure.story-asset figcaption.description,
+div.longform-group-inner.story-content.standard figure.story-asset.story-asset-secondary {
+	font-family: "Guardian Sans", "Open Sans Regular", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	color: #a0a0a0;
+}
+
+/* inline video captions */
+div.longform-group-inner.story-content.standard figure.story-asset.story-asset-secondary h3.heading {
+	padding-left: 16px;
+	background: #fff !important;
+	font-family: "Guardian Sans", "Open Sans Regular", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-weight: 300 !important;
+	font-size: 16px !important; 
+	letter-spacing: 0.5px !important;
+	color: #a0a0a0 !important;
+}
+
+
+/* video container */
+div.longform-group-inner.story-content.standard div.video-container {
+	max-width: 500px;
+	min-width: 280px;
+	width: 50%;
+	float: right;
+	margin-left: 32px;
+	float: right;
+	margin-bottom: 24px;
+	color: #a0a0a0;
+}
+
+/* captions attached to Methode image promos */
+div.asset-promo.promo-splash div.promo-text p {
+	font-family: "Guardian Sans", "Open Sans Regular", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	color: #a0a0a0;
+}
+
+
+/* video caption */
+/* div.longform-group-inner.story-content.standard div.video-container h3.heading {
+	font-family: "Guardian Sans", "Open Sans Regular", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-weight: 300;
+}
+
+
+
+
+
+/* blockquotes */
+/* blockquote text */
+div.longform-group-inner.story-content.standard p > span.blockquote {
+	text-rendering: geometricprecision;
+	float: none;
+	margin-left: 0;
+	padding: 24px 8px;
+	border-top: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	text-align: center;
+	font-family: "Merriweather", Georgia, serif;
+	font-size: 18px;
+	line-height: 22px;
+	text-transform: uppercase;
+	color: #777;
+	width: 100%;
+	/* max-width: 500px;
+	min-width: 300px; */
+}
+
+div.longform-group-inner.story-content.standard p > span.blockquote:before {
+	content:  none;
+}
+
+
+/* blockquote credit */
+div.longform-group-inner.story-content.standard p span.blockquote b {
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 16px;
+	font-family: "Guardian Sans", "Open Sans Regular", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	color: #dab545;
+	letter-spacing: 4px;
+	font-weight: 600;
+}
+div.longform-group-inner.story-content.standard p span.blockquote b:after {
+	content: '';
+	display: block;
+	background-image: url('http://media.news.com.au/nnd/T3Interactives/2016/network/PrideOfAustralia/flower.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: 90px;
+	padding-bottom: 72px;
+}
+/* separate blockquote credit onto own line */
+div.longform-group-inner.story-content.standard p span.blockquote b:before {
+	display: block;
+	content: '-';
+	color: #fff;
+	color: rgba(255,255,255, 0);
+	font-size: 0;
+}
+
+
+
+
+
+/* stanfirst/intro block */
+div.longform-group.standard-child.highlight/* .byline */,
+.longform-group.standard-child.highlight.byline {
+	background: #fff;
+	text-shadow: none;
+	border-bottom: none;
+	text-align: center;		
+}
+div.longform-group.standard-child.highlight.byline div.story-header .story-header_timestamp, 
+div.longform-group.standard-child.highlight.byline div.story-header .story-header_byline-source{
+	color: #bbb;
+	line-height: 12px;
+}
+
+.story-header_timestamp:before, 
+.story-header_byline-source:before {
+	content: '';
+}
+
+div.longform-group.standard-child.highlight.byline div.story-header {
+	padding-top: 16px;
+	margin-bottom: 8px;
+}
+
+div.longform-group.standard-child.highlight.byline div.intro {
+	text-rendering: geometricprecision;
+	text-transform: uppercase;
+	padding: 24px 0px 24px 0px;
+	border-top: solid 1px #ccc;
+	border-bottom: solid 1px #ccc; 
+	/* text-align: center; */
+	font-family: "Merriweather", Georgia, serif;
+	font-size: 18px;
+	line-height: 24px;
+	text-transform: none;
+	color: #777;
+	width: 90%;
+	max-width: 1000px;
+	min-width: 280px;
+	margin: 0 auto;
+}
+
+div.longform-group.standard-child.highlight.byline div.intro p:after {
+	content: '';
+	display: block;
+	background-image: url('http://media.news.com.au/nnd/T3Interactives/2016/network/PrideOfAustralia/flower.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: 120px;
+	padding-bottom: 100px;
+}
+
+
+
+
+
+/* --------------------------------------------------------------------------- */
+/* MAIN HEADLINE IMAGE */
+div.asset-promo.promo-splash div.promo-title {
+	background: none;
+}
+.header-container .story-header_title,
+h1.story-header_title {
+	text-shadow: none;
+	font-family: "Merriweather", Georgia, serif;
+	font-weight: 100;
+	text-rendering: geometricprecision;
+	line-height: 1.3em;
+	letter-spacing: -1px;
+	box-shadow: none;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.8)
+}
+
+.header-container .story-header {
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 0;
+}
+.asset-promo .promo-inner {
+	background: none;
+}
+.asset-promo.promo-splash.nopadding.image-full {
+	width: 100%;
+}
+.header-container {
+	max-width: 95%;
+	bottom: 0;
+}
+/* position main headline container further from bottom of image */
+.header-bottom-center .header-container .header-content {
+	padding-bottom: 0px;
+}
+.longform-group.longform-group-inner.fullwidth-child.header {
+	transform: scale(0.9) translate3d(0, 5%, 0);
+}
+.header-container h1.story-header_title {
+	font-size: 2.4em;
+	margin-bottom: 0;
+}
+.longform-group.longform-group-inner.fullwidth-child.header d.promo-text p {
+	text-align: center;
+	margin: 4px auto;
+}
+/* h1.story-header_title:before {
+	content: 'Pride of Australia';
+	display: table;
+	margin: 0 auto;
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-bottom: solid 1px;
+	line-height: 32px;
+	padding: 8px 64px;
+	margin-bottom: 48px;
+} */
+/* h1.story-header_title:after {
+	content: 'New South Wales';
+	display: table;
+	margin: 0 auto;
+	margin-top: -160px;
+	font-size: 24px;
+	font-family: "Guardian Sans";
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+} */
+
+h1.story-header_title:before {
+	content: 'Pride of Australia';
+	display: table;
+	margin: 0 auto;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-bottom: solid 1px;
+	font-size: 16px;
+	line-height: 16px;
+	padding: 8px 40px;
+	margin-bottom: 10px;
+	color:  #888;
+}
+.story-header_title span:nth-of-type(1):before {
+	content: 'New South Wales';
+	display: table;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	font-family: "Guardian Sans";
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	color: #dab545;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+/* --------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+/* page scrolling progress bar */
+.header-fixed .header-fixed_progress {
+
+}
+/* background track */
+.header-fixed .header-fixed_progress .progress-bar {
+	background-color: #ddd;
+	border-bottom: solid 1px #bbb;
+}
+/* progress bar */
+.header-fixed .header-fixed_progress .progress-highlight {
+	background-color: #dab545;
+}
+/* anchor on bar */
+.header-fixed .header-fixed_progress .progress-item {
+	background: #777;
+}
+.header-fixed .header-fixed_progress .progress-item:hover {
+	background: #dab545;
+}
+/* pop up chapter bubble */
+.header-fixed .header-fixed_progress .progress-item .progress-item-container-inner {
+	background: #fff;
+	border-radius: 4px;
+	border: solid 1px #ccc;
+	box-shadow: 0 10px 20px -10px #000;
+}
+.header-fixed .header-fixed_progress h2, 
+.header-fixed .header-fixed_progress .h2, 
+.header-fixed .header-fixed_progress h3, 
+.header-fixed .header-fixed_progress .h3 {
+	font-weight: 600;
+	color:  #000;
+	letter-spacing: 4px;
+}
+.header-fixed .header-fixed_progress .progress-item:hover .progress-item-container {
+	overflow: visible;
+}
+header.header-fixed:hover .header-fixed_progress .progress-item  {
+	width: 16px;
+	border-radius: 100%;
+}
+
+
+
+
+/* COMMENT OUT FOR NSW */
+/* end video */
+div.longform-group-inner.story-content.standard figure.story-asset.story-asset-secondary {
+	margin: 0 auto;
+	position: relative;
+	float: none;
+	display: block;
+}
+
+div.longform-group-inner.story-content.standard div.video-container {
+	margin: 0 auto;
+	float: none;
+	width: 80%;
+}
+
+
+
+/* inline images */
+div.longform-group-inner.story-content.standard figure.story-asset.story-asset-secondary.image-full {
+	border: none;
+	padding: 0;
+	margin-bottom: 24px;
+
+}
+div.longform-group-inner.story-content.standard figure.story-asset.story-asset-secondary.image-full figcaption.description {
+	background: none;
+	padding: 4px;
+}
+
+
+
+
+
+
+
+
+
+/* mobile only styles */
+@media screen and (max-width: 767px){
+	.header-container {
+		background-color: #fff;
+	}
+	
+	.header-container .story-header_title,
+	h1.story-header_title {
+		color: #000;
+		text-shadow: none;
+	}
+
+	div.longform-group-inner.story-content.standard div.video-container {
+		width: 100%;
+	}
+
+	
+
+}
+
+
+
+
+
+
+/* desktop only */
+@media screen and (min-width: 480px) {
+	div.longform-group-inner.story-content.standard p b span.h3 {
+		font-size: 40px;
+		line-height: 46px;
+		margin: -24px 0 32px 0;
+		padding-top: 24px;
+		letter-spacing: -0.5px;
+	}
+
+	div.longform-group-inner.story-content.standard figure.story-asset.story-asset-secondary h3.heading {
+		padding-left: 0px;
+	}
+	
+	div.longform-group-inner.story-content.standard p span.h2{
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	/* stanfirst/intro block */
+	/* div.longform-group.standard-child.highlight.byline {
+
+	}
+	div.longform-group.standard-child.highlight.byline div.story-header {
+
+	} */
+
+	div.longform-group.standard-child.highlight.byline div.intro {
+		padding: 40px 32px 32px 32px;
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	/* div.longform-group.standard-child.highlight.byline div.intro p:after {
+
+	} */
+
+	.longform-group-inner.story-content.fullwidth + .longform-group.standard-child .longform-group-inner.story-content.standard {
+		padding-top: 0;
+	}
+
+
+}
+
+
+
+@media screen and (min-width: 768px) {
+	.header-container h1.story-header_title,
+	h1.story-header_title {
+		font-size: 3.4em;
+		margin-bottom: 0;
+	}
+
+	h1.story-header_title:before,
+	h1.story-header_title:before {/* POA */	
+		font-size: 24px;
+		line-height: 24px;
+		padding: 8px 64px;
+		color: #fff;
+	}
+	h1.story-header_title span:nth-of-type(1):before { /* state */
+		font-size: 24px;
+		line-height: 24px;
+	}
+
+	div.longform-group-inner.story-content.standard p > span.blockquote {
+		float: right;
+		margin-left: 64px;
+		width: 50%;
+		max-width: 500px;
+		min-width: 300px;
+		font-size: 24px;
+		line-height: 28px;
+		padding: 40px 24px;
+	}
+	div.longform-group-inner.story-content.standard p span.blockquote b:after {
+		background-size: 120px;
+		padding-bottom: 100px;
+	}
+
+	/* unique_headline class used as spacer */
+	p span.unique_headline {
+		padding-bottom: 32px;
+	}
+	/* add flower image before each use of unique head: as a seperator between stories */
+	p span.unique_headline:before {
+		background-size: 120px;
+		padding-bottom: 100px;
+	}
+
+	/* Methode h3 tag */
+	/* medalist/nominee */
+	div.longform-group-inner.story-content.standard p span.h3 {
+		letter-spacing: 4px;
+	}
+
+	/* inline images */
+	div.longform-group-inner.story-content.standard figure.story-asset.story-asset-secondary.image-full,
+	div.longform-group-inner.story-content.standard figure.story-asset.story-asset-secondary.image-half {
+		float: right;
+		width: 50%;
+		margin-left: 32px;
+	}
+
+
+}
+
+
+@media screen and (min-width: 1000px) {
+	.header-container h1.story-header_title,
+	h1.story-header_title {
+		font-size: 4.4em;
+	}
+	/* body text */
+	div.longform-group-inner.story-content.standard p {
+		padding: 0 50px;
+
+	}
+	div.asset-promo.promo-splash div.promo-text p {
+		padding: 0 50px;
+		margin: 4px auto;
+		text-align: center;
+	}
+
+
+}
+
+
+
+@media screen and (min-width: 1400px) {
+	.header-container h1.story-header_title,
+	h1.story-header_title {
+		font-size: 5.4em;
+	}
+	h1.story-header_title:before,
+	h1.story-header_title:before {/* POA */	
+		font-size: 32px;
+		line-height: 32px;
+	}
+	.story-header_title span:nth-of-type(1):before { /* state */
+		font-size: 32px;
+		line-height: 32px;
+	}
+}
+
+
+
+@media screen and (min-width: 2200px) {
+	.header-container h1.story-header_title,
+	h1.story-header_title {
+		font-size: 7em;
+	}
+}
+
