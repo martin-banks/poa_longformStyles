@@ -25,6 +25,14 @@ div.asset-promo.promo-splash div.promo-text {
 	color: #000;
 	padding: 8px 0 !important;
 }
+/* remove white background from caption on main image */
+.w_story-header-all div.asset-promo.promo-splash div.promo-text {
+	background: rgba(0, 0, 0, 0.5);
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+.w_story-header-all div.asset-promo.promo-splash div.promo-text p {
+	color: #fff;
+}
 
 /*  full screen image promo caption text */
 div.asset-promo.promo-splash div.promo-text p {
@@ -146,7 +154,8 @@ figure.story-asset + a + p + p + p b span.h3{
 /* drop caps for first par of each entry */
 a#chapter1 + p + p + p + p:first-letter,
 figure.story-asset + a + p + p + p + p:first-letter,
-p.first + p + p + p:first-letter {
+p.first + p + p + p:first-letter,
+div.asset-promo.promo-splash.nopadding.image-full + a + p + p + p + p:first-letter {
 	float: left;
 	/* color: #b3bec6; */
 	color: #000;
@@ -183,6 +192,15 @@ div.longform-group-inner.story-content.standard figure.story-asset.story-asset-s
 	color: #a0a0a0 !important;
 }
 
+/* hide video header/footer text */
+figure.story-asset.story-asset-secondary div.video-container h3,
+figure.story-asset.story-asset-secondary div.video-container p {
+	display: none;
+}
+/* remove video poster margin */
+figure.story-asset.story-asset-secondary div.video-container img {
+	margin: 0;
+}
 
 /* video container */
 div.longform-group-inner.story-content.standard div.video-container {
@@ -486,7 +504,7 @@ header.header-fixed:hover .header-fixed_progress .progress-item  {
 
 /* COMMENT OUT FOR NSW */
 /* end video */
-div.longform-group-inner.story-content.standard figure.story-asset.story-asset-secondary {
+/* div.longform-group-inner.story-content.standard figure.story-asset.story-asset-secondary {
 	margin: 0 auto;
 	position: relative;
 	float: none;
@@ -497,7 +515,7 @@ div.longform-group-inner.story-content.standard div.video-container {
 	margin: 0 auto;
 	float: none;
 	width: 80%;
-}
+} */
 
 
 
