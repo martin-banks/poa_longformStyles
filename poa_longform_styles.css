@@ -25,6 +25,16 @@ div.asset-promo.promo-splash div.promo-text {
 	color: #000;
 	padding: 8px 0 !important;
 }
+/* remove white background from caption on main image */
+.w_story-header-all div.asset-promo.promo-splash div.promo-text {
+	background-color: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.4);
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+}
+.w_story-header-all div.asset-promo.promo-splash div.promo-text p {
+	color: #fff;
+	letter-spacing: 1px;
+}
 
 /*  full screen image promo caption text */
 div.asset-promo.promo-splash div.promo-text p {

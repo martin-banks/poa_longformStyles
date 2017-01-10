@@ -27,11 +27,13 @@ div.asset-promo.promo-splash div.promo-text {
 }
 /* remove white background from caption on main image */
 .w_story-header-all div.asset-promo.promo-splash div.promo-text {
+	background-color: rgba(0, 0, 0, 0.5);
 	background: rgba(0, 0, 0, 0.5);
-	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+	/* background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
 }
 .w_story-header-all div.asset-promo.promo-splash div.promo-text p {
 	color: #fff;
+	letter-spacing: 1px;
 }
 
 /*  full screen image promo caption text */
@@ -518,17 +520,15 @@ div.longform-group-inner.story-content.standard div.video-container {
 } */
 
 
-
 /* inline images */
 div.longform-group-inner.story-content.standard figure.story-asset.story-asset-secondary.image-full {
 	border: none;
 	padding: 0;
 	margin-bottom: 24px;
-
 }
 div.longform-group-inner.story-content.standard figure.story-asset.story-asset-secondary.image-full figcaption.description {
 	background: none;
-	padding: 4px;
+	padding: 4px 16px;
 }
 
 
@@ -616,7 +616,6 @@ div.longform-group-inner.story-content.standard figure.story-asset.story-asset-s
 		font-size: 3.4em;
 		margin-bottom: 0;
 	}
-
 	h1.story-header_title:before,
 	h1.story-header_title:before {/* POA */	
 		font-size: 24px;
@@ -627,6 +626,10 @@ div.longform-group-inner.story-content.standard figure.story-asset.story-asset-s
 	h1.story-header_title span:nth-of-type(1):before { /* state */
 		font-size: 24px;
 		line-height: 24px;
+	}
+
+	.w_story-header-all div.asset-promo.promo-splash div.promo-text {
+		background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
 	}
 
 	div.longform-group-inner.story-content.standard p > span.blockquote {
@@ -661,10 +664,16 @@ div.longform-group-inner.story-content.standard figure.story-asset.story-asset-s
 	}
 
 	/* inline images */
-	div.longform-group-inner.story-content.standard figure.story-asset.story-asset-secondary.image-full {
+	div.longform-group-inner.story-content.standard figure.story-asset.story-asset-secondary.image-full,
+	div.longform-group-inner.story-content.standard figure.story-asset.story-asset-secondary.image-half {
 		float: right;
 		width: 50%;
 		margin-left: 32px;
+	}
+
+	div.longform-group-inner.story-content.standard figure.story-asset.story-asset-secondary.image-full figcaption.description,
+	div.longform-group-inner.story-content.standard figure.story-asset.story-asset-secondary.image-half figcaption.description {
+		padding: 4px;
 	}
 
 
